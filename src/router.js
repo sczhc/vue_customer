@@ -10,8 +10,10 @@ const router = new Router({
         path: '/',
         component: Frame,
         children: [
-            path: '',
-            name: 'Home',
+            {
+                path: '',
+                name: 'Home',
+            }
         ]
     }]
 })
