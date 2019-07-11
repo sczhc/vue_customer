@@ -1,3 +1,10 @@
 .nav {
-    
+    position: relative;
+
+    .logo {
+        position: absolute;
+        display: inline-block;
+        left: 20px;
+        top: 20px;
+    }
 }
